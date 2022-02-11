@@ -10,7 +10,7 @@ from dash import html
 import pandas as pd
 import numpy as np
 
-data=pd.read_csv("C:/Users/SACO/Desktop/Dash_Board_Training/data/avocado.csv")
+data=pd.read_csv("avocado.csv")
 data['Date'] = pd.to_datetime(data["Date"], format="%m/%d/%Y")   
 #return render_template('view.html', table=data)
 #data["Date"] = pd.to_datetime(data["Date"], format="%m/%d/%Y")
